@@ -1,0 +1,17 @@
+1) Write a class Calculator with divide method. Test this method with valid numbers as well as with 'divided by zero' condition. Try different annotations like @Before, @BeforeClass, @After, @AfterClass, @Ignore etc.
+
+2) Write a junit test case class for testing ComplexNumber's addition functionality using Parameterized test feature.
+
+3) Write a java program that generates random number between 1 to 100. Now, test this program using junit test cases to make sure, the generated random number lies between 1 to 100. Use Parameterized test feature.
+
+
+4) Write a class StringOperations having following methods:
+concat(String s1, String s2), getCharacter(int index), getLength()
+Test these methods with Junit testing as follows:
+A - Create 3 test case classes one for each method.
+B - Add multiple test case methods in every class. Confirm all test cases are working successfully.
+C - Add @Before, @After, @BeforeClass & @AfterClass annotation methods & confirm they are called as per specifications.
+D - Now create copy of all 3 test case classes to add parameterized test cases. Confirm parameterized test cases are also working.
+E - Finally create a test suite class that internally tests all test cases kept in all 6 classes.
+
+5) Write a method to fire SELECT query on database using JDBC. Now test this method without database is up & running. Use mockito framework (http://site.mockito.org/)
